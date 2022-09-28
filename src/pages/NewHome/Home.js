@@ -10,8 +10,8 @@ export default function Home() {
     <React.Fragment>
 
       <NavBar />
-      <Main />
-      <About />
+      {/* <Main />
+      <About /> */}
 
    </React.Fragment>
 
