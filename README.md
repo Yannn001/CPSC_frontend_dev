@@ -1,2 +1,1 @@
-# CSPC web dev
-
+# Getting Started with Create React App
