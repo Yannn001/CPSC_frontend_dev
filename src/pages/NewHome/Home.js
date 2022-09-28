@@ -2,6 +2,9 @@ import React from 'react';
 import NavBar from './NavBar'
 import Main from './Main'
 import About from './About'
+import Event from './Event'
+import Contact from './Contact';
+import Footer from './Footer'
 
 
 export default function Home() {
@@ -10,8 +13,11 @@ export default function Home() {
     <React.Fragment>
 
       <NavBar />
-      {/* <Main />
-      <About /> */}
+      <Main />
+      <About />
+      <Event />
+      <Contact />
+      <Footer />
 
    </React.Fragment>
 
