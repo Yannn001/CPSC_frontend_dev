@@ -2,13 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 
 export default function NavBar() {
-
-  // const handleScroll = (event) => {
-  //   document
-  //   .querySelector("nav")
-  //   .classList.toggle("window-scroll", window.scrollY > 0);
-
-  // };
+  const menu = document.querySelector(".nav__menu");
 
   useEffect(() => {
     const handleScroll = event => {
@@ -18,9 +12,35 @@ export default function NavBar() {
         .classList.toggle("window-scroll", window.scrollY > 0);
     };
 
+    const handleMenuBtn = event => {
+      menu.style.display = "block";
+      closeBtn.style.display = "inline-block";
+      menuBtn.style.display = "none";
+    };
+
+    const handleCloseNav = event => {
+      menu.style.display = "none";
+      closeBtn.style.display = "none";
+      menuBtn.style.display = "inline-block";
+    };
+
+    if (window.innerWidth < 1024) {
+      document.querySelectorAll(".nav__menu li a").forEach((navItem) => {
+        navItem.addEventListener("click", handleCloseNav);
+      });
+    }
+
+    const menuBtn = document.querySelector("#open-menu-btn");
+    const menu = document.querySelector(".nav__menu");
+    const closeBtn = document.querySelector("#close-menu-btn");
     window.addEventListener('scroll', handleScroll);
+    menuBtn.addEventListener("click",handleMenuBtn);
+    closeBtn.addEventListener("click", handleCloseNav);
     return () => {
       window.removeEventListener('scroll', handleScroll);
+      menuBtn.removeEventListener("click",handleMenuBtn);
+      closeBtn.removeEventListener("click", handleCloseNav);
+
     };
   }, []);
 
