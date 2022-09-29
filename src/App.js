@@ -16,7 +16,7 @@ import Home from './pages/NewHome/Home'
           <Route path="/Signup" element={<Signup/>} />
           <Route path="/Signin" element={<Signin/>} />
           <Route path="/Chat" element={<ChatRoom/>} />
-          <Route path="/Home" element={<Home/>} />
+          <Route path="/" element={<Home/>} />
         </Routes>
     </div>
   );
