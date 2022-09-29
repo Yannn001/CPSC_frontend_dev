@@ -1,12 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 
 export default function NavBar() {
 
+  // const handleScroll = (event) => {
+  //   document
+  //   .querySelector("nav")
+  //   .classList.toggle("window-scroll", window.scrollY > 0);
+
+  // };
+
+  useEffect(() => {
+    const handleScroll = event => {
+      //console.log('window.scrollY', window.scrollY);
+      document
+        .querySelector("nav")
+        .classList.toggle("window-scroll", window.scrollY > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div>
-      <nav>
-        <div class="container nav__container"> 
+      <nav
+      >
+        <div class="container nav__container">
           <a href="index.html" class="nav__logo">
             <h3>Welcome!</h3>
           </a>
