@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-
 export default function NavBar() {
   const menu = document.querySelector(".nav__menu");
 
@@ -72,4 +71,3 @@ export default function NavBar() {
     </div>
   );
 }
-
