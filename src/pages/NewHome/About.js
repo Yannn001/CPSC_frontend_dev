@@ -1,6 +1,5 @@
 import React from 'react';
 
-//test commit by cheng
 export default function About() {
   
   return (
