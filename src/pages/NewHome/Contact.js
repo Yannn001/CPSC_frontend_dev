@@ -27,16 +27,16 @@ export default function Contact() {
                     </div>
 
                     <form action="https://formspree.io/f/mdojkwkr" method="POST">
-                        <input type="text" name="name" placeholder="Your Name" required />
-                        <input type="email" name="email" placeholder="Your Email" required />
+                        <input type="text" name="name" placeholder="姓名/称呼" required />
+                        <input type="email" name="email" placeholder="邮箱" required />
                         <textarea
                             name="message"
                             rows="6"
-                            placeholder="Message"
+                            placeholder="留言..."
                             required
                         ></textarea>
                         <button type="submit" class="btn">
-                            Send <i class="uil uil-arrow-right"></i>
+                            发送 <i class="uil uil-arrow-right"></i>
                         </button>
                     </form>
                 </div>
