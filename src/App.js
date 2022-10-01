@@ -5,6 +5,7 @@ import Signin from './pages/signin/Signin'
 import ChatRoom from './pages/chatroom/ChatRoom';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/NewHome/Home'
+import Popup from './pages/popup/Popup';
 
 
 
@@ -17,6 +18,7 @@ import Home from './pages/NewHome/Home'
           <Route path="/Signin" element={<Signin/>} />
           <Route path="/Chat" element={<ChatRoom/>} />
           <Route path="/" element={<Home/>} />
+          <Route path="/test" element={<Popup/>} />
         </Routes>
     </div>
   );
