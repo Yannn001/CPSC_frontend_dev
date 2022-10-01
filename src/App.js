@@ -17,7 +17,7 @@ import Popup from './pages/popup/Popup';
           <Route path="/Signup" element={<Signup/>} />
           <Route path="/Signin" element={<Signin/>} />
           <Route path="/Chat" element={<ChatRoom/>} />
-          <Route path="/" element={<Home/>} />
+          <Route path="/CPSC_forntend_dev" element={<Home/>} />
           <Route path="/test" element={<Popup/>} />
         </Routes>
     </div>
