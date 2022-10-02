@@ -7,20 +7,22 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/NewHome/Home'
 import Calender from './pages/NewHome/Calender'
 import Popup from './pages/popup/Popup';
+import NavPages from './pages/NavPage'
 
 
 
- function App() {
+function App() {
   return (
     // <div className="App">
     <div>
-        <Routes>
-          <Route path="/Signup" element={<Signup/>} />
-          <Route path="/Signin" element={<Signin/>} />
-          <Route path="/Chat" element={<ChatRoom/>} />
-          <Route path="/" element={<Home/>} />
-          <Route path="/test" element={<Calender/>} />
-        </Routes>
+      <NavPages />
+      <Routes>
+        <Route path="/Signup" element={<Signup />} />
+        <Route path="/Signin" element={<Signin />} />
+        <Route path="/Chat" element={<ChatRoom />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/test" element={<Calender />} />
+      </Routes>
     </div>
   );
 }
