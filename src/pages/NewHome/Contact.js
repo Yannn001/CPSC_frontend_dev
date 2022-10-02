@@ -12,7 +12,7 @@ export default function Contact() {
                         <p>
                             谢谢你浏览我们的网站, 如果你对我们的活动感兴趣的话, 不妨留下联系方式, 我们会主动与你取得联系.
                         </p>
-                        <ul class="contact__socials">
+                        {/* <ul class="contact__socials">
                             <li>
                                 <a href="https://www.linkedin.com/in/wang-chengyan-1b118b218" target="_blank"
                                 ><i class="uil uil-linkedin"></i
@@ -23,7 +23,7 @@ export default function Contact() {
                                 ><i class="uil uil-github-alt"></i
                                 ></a>
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
 
                     <form action="https://formspree.io/f/mdojkwkr" method="POST">
