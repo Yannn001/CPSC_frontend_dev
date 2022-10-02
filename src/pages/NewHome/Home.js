@@ -17,7 +17,7 @@ export default function Home() {
       <NavBar />
       <Main />
       <About />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <Event />
       <Contact />
       
