@@ -15,7 +15,6 @@ function App() {
   return (
     // <div className="App">
     <div>
-      <NavPages />
       <Routes>
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Signin" element={<Signin />} />
