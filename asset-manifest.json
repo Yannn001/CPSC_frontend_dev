@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/CPSC_forntend_dev/static/css/main.7561622e.chunk.css",
-    "main.js": "/CPSC_forntend_dev/static/js/main.389cecc7.chunk.js",
-    "main.js.map": "/CPSC_forntend_dev/static/js/main.389cecc7.chunk.js.map",
+    "main.js": "/CPSC_forntend_dev/static/js/main.50b94139.chunk.js",
+    "main.js.map": "/CPSC_forntend_dev/static/js/main.50b94139.chunk.js.map",
     "runtime-main.js": "/CPSC_forntend_dev/static/js/runtime-main.1b64401c.js",
     "runtime-main.js.map": "/CPSC_forntend_dev/static/js/runtime-main.1b64401c.js.map",
-    "static/js/2.47196815.chunk.js": "/CPSC_forntend_dev/static/js/2.47196815.chunk.js",
-    "static/js/2.47196815.chunk.js.map": "/CPSC_forntend_dev/static/js/2.47196815.chunk.js.map",
+    "static/js/2.f3b9e769.chunk.js": "/CPSC_forntend_dev/static/js/2.f3b9e769.chunk.js",
+    "static/js/2.f3b9e769.chunk.js.map": "/CPSC_forntend_dev/static/js/2.f3b9e769.chunk.js.map",
     "index.html": "/CPSC_forntend_dev/index.html",
     "static/css/main.7561622e.chunk.css.map": "/CPSC_forntend_dev/static/css/main.7561622e.chunk.css.map",
-    "static/js/2.47196815.chunk.js.LICENSE.txt": "/CPSC_forntend_dev/static/js/2.47196815.chunk.js.LICENSE.txt"
+    "static/js/2.f3b9e769.chunk.js.LICENSE.txt": "/CPSC_forntend_dev/static/js/2.f3b9e769.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1b64401c.js",
-    "static/js/2.47196815.chunk.js",
+    "static/js/2.f3b9e769.chunk.js",
     "static/css/main.7561622e.chunk.css",
-    "static/js/main.389cecc7.chunk.js"
+    "static/js/main.50b94139.chunk.js"
   ]
 }
