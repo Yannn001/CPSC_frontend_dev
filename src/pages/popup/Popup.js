@@ -70,7 +70,7 @@ export default function Popup() {
         onClose={handleClose}
       >
         <Grid container component="main" className={classes.paper}>
-          <Grid item xs={6} sm={8} md={5} component={Paper} elevation={6} square style={{ borderRadius: 8 }}>
+          <Grid item xs={6} sm={8} md={10} component={Paper} elevation={100} square style={{ borderRadius: 8 }}>
             <div className={classes.paper}>
               <Avatar className={classes.avatar}>
                 <LockOutlinedIcon />

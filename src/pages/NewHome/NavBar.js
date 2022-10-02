@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Popup from '../popup/Popup';
 
 export default function NavBar() {
   const menu = document.querySelector(".nav__menu");
@@ -61,6 +62,9 @@ export default function NavBar() {
               <a href="https://swc.osu.edu/health-and-wellness-resource-guide?Wellness+Dimension=6" class="btn btn-primary" download
               ><i class="uil uil-grin"></i> OSU 资源</a
               >
+            </li>
+            <li>
+              {/* <Popup /> */}
             </li>
           </ul>
 

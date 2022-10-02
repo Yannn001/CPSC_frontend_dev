@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-export default function About() {
+export default function AboutUs() {
   
   return (
     <div>
-    <section id="aboutMe">
+    <section id="aboutUs">
       <div class="container services__container">
         <div class="services__left">
           <h1> 大胆分享 </h1>
@@ -51,4 +51,3 @@ export default function About() {
     </div>
   );
 }
-

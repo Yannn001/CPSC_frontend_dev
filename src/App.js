@@ -5,6 +5,7 @@ import Signin from './pages/signin/Signin'
 import ChatRoom from './pages/chatroom/ChatRoom';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/NewHome/Home'
+import Calender from './pages/NewHome/Calender'
 import Popup from './pages/popup/Popup';
 
 
@@ -17,8 +18,8 @@ import Popup from './pages/popup/Popup';
           <Route path="/Signup" element={<Signup/>} />
           <Route path="/Signin" element={<Signin/>} />
           <Route path="/Chat" element={<ChatRoom/>} />
-          <Route path="/CPSC_forntend_dev" element={<Home/>} />
-          <Route path="/test" element={<Popup/>} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/test" element={<Calender/>} />
         </Routes>
     </div>
   );

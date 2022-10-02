@@ -28,6 +28,7 @@ export default function Calender() {
   const classes = useStyles();
   return (
     <div class="calender">
+      <setion>
       <hr size="1" width="86%" color="grey" />
       <div
         id='left-container'
@@ -244,6 +245,7 @@ export default function Calender() {
           </div>
         </div>
       </div>
+      </setion>
     </div>
   );
 }
