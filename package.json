@@ -1,7 +1,7 @@
 {
   "name": "studentfrontend",
   "version": "0.1.0",
-  "homepage": "https://yannn001.github.io/CPSC_forntend_dev",
+  "homepage": "https://yannn001.github.io/CPSC_frontend_dev",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
