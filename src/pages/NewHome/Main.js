@@ -19,11 +19,11 @@ export default function Main() {
 
                     <div class="header__right">
                         <div class="header__image">
-                            <img src="https://yannn001.github.io/personal-portfolio/Chengyan's%20personal%20portfolio/images/avatar.png" />
+                            <img src="" />
                         </div>
                         <div class="header__right-bg"></div>
                         <ul class="header__socials">
-                            <li>
+                            {/* <li>
                                 <a href="https://www.linkedin.com/in/wang-chengyan-1b118b218" target="_blank"
                                 ><i class="uil uil-linkedin"></i
                                 ></a>
@@ -32,7 +32,7 @@ export default function Main() {
                                 <a href="https://github.com/Yannn001?tab=repositories" target="_blank"
                                 ><i class="uil uil-github-alt"></i
                                 ></a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
