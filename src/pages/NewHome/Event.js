@@ -23,7 +23,7 @@ export default function Event() {
               ><img src="https://meet.eslite.com/Content/Images/Article/1200x628_20220209143427.jpg"
             /></span>
             <div class="portfolio__cta">
-              <a href="https://github.com/Yannn001/task_manager" class="btn" target="_blank"
+              <a href="" class="btn" target="_blank"
                 >日程安排</a
               >
             </div>
@@ -33,7 +33,7 @@ export default function Event() {
               ><img src="https://user-images.githubusercontent.com/69735000/191848907-d4a0b1a0-a32d-4595-93f8-d688cd4966c5.jpg"
             /></span>
             <div class="portfolio__cta">
-              <a href="https://github.com/Yannn001/CPCOH" class="btn" target="_blank"
+              <a href="" class="btn" target="_blank"
                 >日程安排</a
               >
             </div>
