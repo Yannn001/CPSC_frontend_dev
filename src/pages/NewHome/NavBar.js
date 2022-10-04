@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Popup from '../popup/Popup';
+
 
 export default function NavBar() {
   const menu = document.querySelector(".nav__menu");
@@ -50,7 +50,8 @@ export default function NavBar() {
       >
         <div class="container nav__container">
           <a href="index.html" class="nav__logo">
-            <h3>Welcome!</h3>
+            <img src="https://user-images.githubusercontent.com/69735000/193736827-90cd98ea-8fa4-4cee-8afd-63e5318393cd.png" />
+            {/* <h3>Welcome!</h3> */}
           </a>
 
           <ul class="nav__menu">
@@ -64,7 +65,7 @@ export default function NavBar() {
               >
             </li>
             <li>
-              {/* <Popup /> */}
+
             </li>
           </ul>
 

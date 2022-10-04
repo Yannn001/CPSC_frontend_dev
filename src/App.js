@@ -6,7 +6,7 @@ import ChatRoom from './pages/chatroom/ChatRoom';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/NewHome/Home'
 import Calender from './pages/NewHome/Calender'
-import Popup from './pages/popup/Popup';
+import PopMenu from './pages/popup/PopMenu';
 import NavPages from './pages/NavPage'
 
 
@@ -20,7 +20,7 @@ function App() {
         <Route path="/Signin" element={<Signin />} />
         <Route path="/Chat" element={<ChatRoom />} />
         <Route path="/" element={<Home />} />
-        <Route path="/test" element={<Calender />} />
+        <Route path="/test" element={<PopMenu />} />
       </Routes>
     </div>
   );
