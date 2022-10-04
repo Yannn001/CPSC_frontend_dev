@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/CPSC_frontend_dev/static/css/main.7561622e.chunk.css",
-    "main.js": "/CPSC_frontend_dev/static/js/main.6f40c0c2.chunk.js",
-    "main.js.map": "/CPSC_frontend_dev/static/js/main.6f40c0c2.chunk.js.map",
+    "main.css": "/CPSC_frontend_dev/static/css/main.cc77a276.chunk.css",
+    "main.js": "/CPSC_frontend_dev/static/js/main.192b7438.chunk.js",
+    "main.js.map": "/CPSC_frontend_dev/static/js/main.192b7438.chunk.js.map",
     "runtime-main.js": "/CPSC_frontend_dev/static/js/runtime-main.a5088e28.js",
     "runtime-main.js.map": "/CPSC_frontend_dev/static/js/runtime-main.a5088e28.js.map",
-    "static/js/2.ca994a08.chunk.js": "/CPSC_frontend_dev/static/js/2.ca994a08.chunk.js",
-    "static/js/2.ca994a08.chunk.js.map": "/CPSC_frontend_dev/static/js/2.ca994a08.chunk.js.map",
+    "static/js/2.d81a3b0f.chunk.js": "/CPSC_frontend_dev/static/js/2.d81a3b0f.chunk.js",
+    "static/js/2.d81a3b0f.chunk.js.map": "/CPSC_frontend_dev/static/js/2.d81a3b0f.chunk.js.map",
     "index.html": "/CPSC_frontend_dev/index.html",
-    "static/css/main.7561622e.chunk.css.map": "/CPSC_frontend_dev/static/css/main.7561622e.chunk.css.map",
-    "static/js/2.ca994a08.chunk.js.LICENSE.txt": "/CPSC_frontend_dev/static/js/2.ca994a08.chunk.js.LICENSE.txt"
+    "static/css/main.cc77a276.chunk.css.map": "/CPSC_frontend_dev/static/css/main.cc77a276.chunk.css.map",
+    "static/js/2.d81a3b0f.chunk.js.LICENSE.txt": "/CPSC_frontend_dev/static/js/2.d81a3b0f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a5088e28.js",
-    "static/js/2.ca994a08.chunk.js",
-    "static/css/main.7561622e.chunk.css",
-    "static/js/main.6f40c0c2.chunk.js"
+    "static/js/2.d81a3b0f.chunk.js",
+    "static/css/main.cc77a276.chunk.css",
+    "static/js/main.192b7438.chunk.js"
   ]
 }
