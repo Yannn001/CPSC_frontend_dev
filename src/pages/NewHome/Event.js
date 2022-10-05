@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import Event1 from './EventSchedule/Event1';
 
@@ -6,10 +5,16 @@ import Event1 from './EventSchedule/Event1';
 
 export default function Event() {
   const [modalOpen, setModalOpen] = useState(false);
-
+  const [dim, setDim] = useState("portfolio");
+  
+  const changeDim = () => {
+    console.log("you just clicked");
+    if(!modalOpen){ setDim("portfolio-change");}
+    if(modalOpen){ setDim("portfolio");}
+  };
   return (
     <div>
-      <section id="portfolio">
+      <section id={dim}>
         <div class="container portfolio__container">
           <div class="portfolio__head">
             <h1>读书会活动</h1>
@@ -39,21 +44,26 @@ export default function Event() {
               <div
                 class="portfolio__cta"
               >
-                <a class="btn" target="_blank"
+                <a class="btn" target="_blank" 
                   onClick={() => {
                     setModalOpen(true);
+                    changeDim();
                   }}
-                >日程安排
+                >日程安排 
                 </a>
-
-                {modalOpen && <Event1 setOpenModal={setModalOpen} />}
-
               </div>
             </article>
           </div>
+          {modalOpen && <Event1 setOpenModal={setModalOpen} changeDim={changeDim}/>} 
         </div>
       </section>
     </div>
   );
 }
 
+{/* TODO: 
+1)modify event 2
+2)change event 1 to 2
+3)style event div
+4)add calender
+ */}

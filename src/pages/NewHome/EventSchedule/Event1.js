@@ -1,7 +1,8 @@
 import React from "react";
-// import './Event1.css';
+import "./Event1.css";
 
-function Event1({ setOpenModal }) {
+
+function Event1({ setOpenModal , changeDim}) {
   return (
     <div className="modalBackground">
       <div className="modalContainer">
@@ -9,6 +10,7 @@ function Event1({ setOpenModal }) {
           <button
             onClick={() => {
               setOpenModal(false);
+              changeDim();
             }}
           >
             X
@@ -24,6 +26,7 @@ function Event1({ setOpenModal }) {
           <button
             onClick={() => {
               setOpenModal(false);
+              changeDim();
             }}
             id="cancelBtn"
           >
