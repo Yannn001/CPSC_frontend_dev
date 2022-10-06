@@ -1,8 +1,8 @@
 .modalBackground {
-    width: 100vw;
-    height: 15vh;
+    width: 0vw;
+    height: 20vh;
     z-index: 1;
-    position: relative;
+    position: fixed;
     display: flex;
     top: 50%;
     left: 50%;
@@ -13,7 +13,7 @@
   
   .modalContainer {
     width: 500px;
-    height: 500px;
+    height: 550px;
     border-radius: 12px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -62,7 +62,7 @@
     height: 45px;
     margin: 10px;
     border: none;
-    background-color: cornflowerblue;
+    background-color: #965b1b;
     color: white;
     border-radius: 8px;
     font-size: 20px;
@@ -70,5 +70,5 @@
   }
   
   #cancelBtn {
-    background-color: crimson;
+    background-color: #4b4a53;
   }

@@ -25,7 +25,6 @@ export default function Event() {
               <a href="https://github.com/Yannn001?tab=repositories">如何报名 <i class="uil uil-arrow-right"></i></a>
             </div>
           </div>
-
           <div class="portfolio__projects">
             <article class="portfolio__project">
               <span class="portfolio__project-image"
@@ -52,9 +51,12 @@ export default function Event() {
                 >日程安排 
                 </a>
               </div>
+              {modalOpen && <Event1 setOpenModal={setModalOpen} changeDim={changeDim}/>}
             </article>
+            
           </div>
-          {modalOpen && <Event1 setOpenModal={setModalOpen} changeDim={changeDim}/>} 
+          
+           
         </div>
       </section>
     </div>
